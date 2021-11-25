@@ -64,7 +64,7 @@ i:hover {
 }
 
 .mySwiper {
-  height: 350px;
+  height: 400px;
   /* margin-bottom: 2rem; */
   margin-top: 2rem;
   /* background-color: red; */
@@ -78,7 +78,7 @@ i:hover {
   width: 240px;
   height: 350px;
   border-radius: 7px;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
 }
 .swiper-slide img {
   width: 240px;
