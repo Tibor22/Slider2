@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f9c0780752.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Swiper Slider</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <i class="fas fa-bars fa-2x"></i>
+        <p>CANDLE APP</p>
+        <i class="far fa-bell fa-2x"></i>
+      </div>
+
+      <div class="main-text">
+        <h2>OUR CANDLES</h2>
+        <small
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+          voluptas minus voluptates architecto molestiae sapiente quisquam
+          laborum. Unde sit quos consequuntur necessitatibus eum, et
+          ratione.</small
+        >
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/ellieelien-lVbDUpEj0yw-unsplash.jpg" alt="" />
+            <div class="info">
+              <h3>Candle</h3>
+              <p>black</p>
+              <a href="#">More info</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/hanna-balan-YasQvzPbGOQ-unsplash (2).jpg" alt="" />
+            <div class="info">
+              <h3>Candle</h3>
+              <p>black</p>
+              <a href="#">More info</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/jullliia-Y98LjDhW9S4-unsplash.jpg" alt="" />
+            <div class="info">
+              <h3>Candle</h3>
+              <p>black</p>
+              <a href="#">More info</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/autumn-hassett-wIz8Gm5TO_A-unsplash.jpg" alt="" />
+            <div class="info">
+              <h3>Candle</h3>
+              <p>black</p>
+              <a href="#">More info</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/svitlana-lUZiv2LXsGw-unsplash.jpg" alt="" />
+            <div class="info">
+              <h3>Candle</h3>
+              <p>black</p>
+              <a href="#">More info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="footer-menu">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-undo"></i>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 40,
+        centeredSlides: true,
+        grabCursor: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
