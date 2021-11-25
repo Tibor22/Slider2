@@ -7,11 +7,12 @@
 
 body {
   background: linear-gradient(#3f5fb5, #000);
+  /* min-height: 100vh; */
 }
 
 .main {
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
   margin: 0 auto;
   overflow: hidden;
   background: #fdfdfd;
