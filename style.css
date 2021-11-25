@@ -54,8 +54,8 @@ i:hover {
   padding: 17px 5px;
   background: #f9f9f9;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  bottom: 0;
+  position: absolute;
+  bottom: 0px;
   width: 100%;
 }
 
@@ -78,7 +78,7 @@ i:hover {
   width: 240px;
   height: 350px;
   border-radius: 7px;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
 }
 .swiper-slide img {
   width: 240px;
