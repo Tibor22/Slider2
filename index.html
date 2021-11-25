@@ -93,6 +93,15 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          scale: 0.8,
+          slideShadows: true,
+        },
         slidesPerView: "auto",
         spaceBetween: 40,
         centeredSlides: true,

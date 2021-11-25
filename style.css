@@ -74,23 +74,23 @@ i:hover {
 }
 
 .swiper-slide {
-  width: 200px;
-  height: 250px;
+  width: 220px;
+  height: 290px;
   border-radius: 7px;
   margin-bottom: 3rem;
 }
 .swiper-slide img {
-  width: 200px;
-  height: 250px;
+  width: 220px;
+  height: 290px;
   border-radius: 7px;
   object-fit: cover;
   object-position: center;
 }
 
-.swiper-slide-active {
+/* .swiper-slide-active {
   transform: scale(1.2);
   transition: 0.4s ease-in-out;
-}
+} */
 
 .info {
   width: 100%;
