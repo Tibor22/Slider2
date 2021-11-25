@@ -54,7 +54,7 @@ i:hover {
   padding: 17px 5px;
   background: #f9f9f9;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -65,8 +65,9 @@ i:hover {
 
 .mySwiper {
   height: 350px;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   margin-top: 2rem;
+  /* background-color: red; */
 }
 
 .swiper-wrapper {
@@ -74,14 +75,14 @@ i:hover {
 }
 
 .swiper-slide {
-  width: 220px;
-  height: 290px;
+  width: 240px;
+  height: 350px;
   border-radius: 7px;
   margin-bottom: 3rem;
 }
 .swiper-slide img {
-  width: 220px;
-  height: 290px;
+  width: 240px;
+  height: 350px;
   border-radius: 7px;
   object-fit: cover;
   object-position: center;
